@@ -34,3 +34,4 @@ class TicTacToe
 
   def move(board, token = "X")
 end
+end
