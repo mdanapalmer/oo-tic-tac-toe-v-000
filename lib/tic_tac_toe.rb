@@ -42,7 +42,7 @@ def position_taken?(index)
 end
 #If the board index is not equal to " " then the position is taken
 
-def valid_move?(index)
+def valid_move?
     !position_taken? && index.between?(0,8)
 end
 
