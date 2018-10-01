@@ -32,6 +32,7 @@ class TicTacToe
     user_input.to_i - 1
   end
 
-  def move(board, token = "X")
+  def move(@board, token = "X")
+    
 end
 end
