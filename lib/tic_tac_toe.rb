@@ -4,10 +4,7 @@ class TicTacToe
   def initialize(board = nil)
     @board = board || Array.new(9, " ")
   end
-
-  def board
-    @board
-  end
+  #assigns an instance variable @board to an array with 9 blank spaces
 
     WIN_COMBINATIONS = [
       [0, 1, 2],
